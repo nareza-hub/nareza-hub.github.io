@@ -1,8 +1,8 @@
 body {
-    font-family: poppins;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
     text-align: center;
     background: #10064C;
-    backgro
     margin: 0;
     padding: 0;
     color: black;
@@ -12,6 +12,11 @@ header {
     background: white;
     color: #FF443B;
     padding: 20px;
+}
+h1, h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: #FF443B;
 }
 
 main {
