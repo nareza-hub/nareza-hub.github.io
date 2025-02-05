@@ -4,12 +4,12 @@ body {
     background-color: #003366;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #003366;
+    color: black;
     padding: 20px;
 }
 
@@ -24,7 +24,7 @@ main {
 
 nav a {
     text-decoration: none;
-    color: #0073e6;
+    color: black;
     font-weight: bold;
 }
 nav ul {
@@ -47,5 +47,5 @@ footer {
     margin-top: 20px;
     padding: 10px;
     background-color: #333;
-    color: white;
+    color: black;
 }
