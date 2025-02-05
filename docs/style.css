@@ -12,6 +12,9 @@ header {
     background: white;
     color: #FF443B;
     padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 30px;
 }
 h1, h2 {
     font-family: 'Merriweather', serif;
