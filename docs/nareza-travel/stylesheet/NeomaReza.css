@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: 'Merriweather', serif; /* Serif font for a sophisticated feel */
+    background-color: #f3f6f1; /* Lighter greenish background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #e6f2e6; /* Light green background */
+    color: #2c6b2f; /* Dark green text */
+    padding: 40px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #2c6b2f; /* Match header color */
+}
+
+/* Navigation */
+nav {
+    background-color: #2c6b2f; /* Dark green background */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e1c699; /* Light brownish color on hover */
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    background: #ffffff; /* White background for the main content */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 18px;
+    color: #333;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c6b2f; /* Dark green footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer p {
+    font-size: 16px;
+    color: white;
+}
+footer a {
+    color: #E1C699;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        width: 90%;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
