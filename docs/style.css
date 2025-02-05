@@ -1,22 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #10064C;
+    background: #10064C;
+    backgro
     margin: 0;
     padding: 0;
     color: black;
 }
 
 header {
-    background-color: #10064C;
-    color: black;
+    background: white;
+    color: #FF443B;
     padding: 20px;
 }
 
 main {
     margin: 20px;
     padding: 20px;
-    background-color: #10064C;
+    background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
@@ -36,7 +37,7 @@ nav ul li {
     margin: 0 15px;
 }
 section {
-    background-color: #10064C;
+    background: white;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -46,6 +47,6 @@ section {
 footer {
     margin-top: 20px;
     padding: 10px;
-    background-color: #10064C;
+    background: white;
     color: black;
 }
