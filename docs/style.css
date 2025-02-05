@@ -1,60 +1,131 @@
+/* Global Styles */
 body {
     font-family: 'Merriweather', serif;
-    font-weight: 900;
-    text-align: center;
-    background: #10064C;
+    background-color: #f4f4f4; /* Lighter background */
+    color: #333; /* Dark text for readability */
     margin: 0;
     padding: 0;
-    color: black;
 }
 
-header {
-    background: white;
-    color: #FF443B;
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 30px;
-}
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Merriweather', serif;
-    font-weight: 900;
-    color: #FF443B;
+    color: #333;
+    font-weight: 700;
 }
 
-main {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+/* Header */
+header {
+    background: #ffffff; /* Clean white background */
+    color: #003366; /* Dark blue for contrast */
+    padding: 40px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Navigation */
+nav {
+    background-color: #003366; /* Dark blue for navigation */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-section {
-    background: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    background: white;
+nav a:hover {
+    color: #E63946; /* Red color on hover */
+}
+
+/* Main Sections */
+section {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff; /* White background for sections */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+strong {
     color: black;
+    font-weight: bolder;
+}
+section h2 {
+    color: #003366; /* Dark blue */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    color: #666; /* Slightly gray text for body */
+    line-height: 1.6;
+}
+
+section a {
+    color: #E63946; /* Red link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        width: 90%;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
