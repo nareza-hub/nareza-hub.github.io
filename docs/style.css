@@ -21,10 +21,25 @@ main {
     display: inline-block;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #0073e6;
     font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
