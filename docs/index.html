@@ -1,82 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neoma Reza | Portfolio</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Neoma Reza Website</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- CONNECTS HTML TO CSS -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="layout">
 
-    <header>
-        <h1>Neoma Reza</h1>
-        <p>Computer Science Major | Computing Technology and Applications Minor</p>
+      <!-- PAGES -->
+      <aside class="rail" aria-label="Primary navigation">
 
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="Neoma Reza.pdf" target="_blank">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
+        <nav class="rail-nav">
+          <a href="index.html" class="rail-link active">Home</a>
+          <a href="projects.html" class="rail-link">Projects</a>
+          <a href="travel.html" class="rail-link">Travel</a>
         </nav>
-    </header>
+      </aside>
 
-    <section id="about">
-        <h2>About Me</h2>
+      <!-- MAIN CONTENT -->
+      <main class="main" id="main">
+        <div class="container">
+          <header class="page-header">
 
-        <p>
-            I'm Neoma Reza, a third-year student majoring in 
-            <strong>Computer Science</strong> and minoring in 
-            <strong>Computing Technology and Applications</strong> 
-            at the <strong>University of Alabama</strong>.
-        </p>
+            <!-- TITLE -->
+            <h1 class="title">Neoma Reza</h1>
+            <div class="hr" role="presentation"></div>
+          </header>
 
-        <p>
-            My passion for technology and problem-solving led me to pursue a career in software development.
-            In my journey so far, I have gained hands-on experiences working with a variety of programming languages,
-            including <strong>C, C++, Python, Assembly, SQL, and Java.</strong>
-            My coursework and personal projects have allowed me to explore the fascinating world of machine learning,
-            web development, operating systems, microcomputer, and data analysis.
-            <br>
-            I've developed an appreciation for both the technical and creative aspects of building efficient,
-            user-centered applications.
-        </p>
+          <!-- PROJECT DESCRIPTION -->
+          <section class="panel" aria-labelledby="about-neo">
+            <div class="panel-head">
+              <h2 class="panel-title" id="about-neo">About Me</h2>
+            </div>
+          
+            <div class="panel-body">
+              <p class="desc">
+                I am a Computer Science student at the University of Alabama with a minor in Computing Technology and Applications.
+		I have experience in software development, web applications, and automation, with a strong interest in building tools that
+		improve efficiency and solve real-world problems.
+              </p>
 
-        <p>
-            Alongside my academic pursuits, I enjoy learning about new technologies and improving my coding skills
-            through practical projects. When I'm not coding, you can find me designing websites, exploring different
-            software architectures, or having conversations with others to learn other people's experiences and/or
-            life journeys to inspire me.
-        </p>
+              <p class="desc">
+                I am currently working on an industry-sponsored capstone project where I am developing a web-based Automated Proposal and Fee Calculator
+		using Python, Streamlit, and JSON data structures. This project involves front-end design, user interface development, data management,
+		and generating Word documents programmatically. Through this project, I have gained experience in application structure, UI/UX design,
+		and integrating business logic into software tools.
+              </p>
 
-        <p>
-            I am always excited to connect with like-minded individuals and explore new opportunities that challenge
-            my skills and expand my knowledge.
-        </p>
+              <p class="desc">
+                In addition to software development, I have also worked on automation and data-related projects, including building dashboards, organizing
+		training data, and improving workflows using tools such as Excel, SQL, and scripting. These experiences helped me develop strong
+		problem-solving skills and an understanding of how software can be used to improve business and operational processes.
+              </p>
 
-        <p>
-            Outside of tech, I have a deep love for food and enjoy relaxing with friends or family over coffee,
-            boba, or even ice cream, especially by the riverside. Whether it's catching up with them or simply
-            taking in the view, I cherish the little moments that make life memorable.
-        </p>
-    </section>
+              <p class="desc">
+                I am particularly interested in software development, systems, and automation, and I enjoy working on projects where I can design, build,
+		and improve systems that make processes more efficient and easier to use. I am always looking for opportunities to continue learning,
+		gaining experience, and growing.
+              </p>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
+            </div>
+          </section>
 
-        <p>Email: <a href="mailto:reza.neoma@gmail.com">reza.neoma@gmail.com</a></p>
-        <p>Phone: <a href="tel:+12568934564">+1 (256) 893-4564</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/neoma--reza-" target="_blank">Neoma Reza's LinkedIn</a></p>
-        <p>GitHub: <a href="https://github.com/nareza-hub" target="_blank">Neoma Reza's GitHub</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Neoma Reza</p>
-    </footer>
-
-</body>
+  </body>
 </html>
