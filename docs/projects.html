@@ -1,87 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neoma Reza | Projects</title>
+
+    <!-- CONNECTS HTML TO CSS -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <body>
+    <div class="layout">
+
+      <!-- SIDEBAR / NAVIGATION -->
+      <aside class="rail" aria-label="Primary navigation">
+        <nav class="rail-nav">
+          <a href="index.html" class="rail-link">About Me</a>
+          <a href="education.html" class="rail-link">Education</a>
+          <a href="experiences.html" class="rail-link">Experiences</a>
+          <a href="projects.html" class="rail-link active">Projects</a>
+          <a href="skills.html" class="rail-link">Skills</a>
         </nav>
-    </header>
+      </aside>
 
-    <section>
-        <h2>Project 1: Website Design (Spring 2024)</h2>
-        <a href="nareza-travel/index.html">Visit My Project</a>
-        <p>I learned to make our own personal website related to things that we like; which I chose Travel to be my topic.<br>
-        I made 4 pages:<br>
-        <ul>
-            <li>Home Page</li>
-            <li>5 Countries for Every Continents</li>
-            <li>7 Wonders of the World</li>
-            <li>YouTube Creators Sharing Information About Destinations Around the World</li>
-        </ul> </p>
+      <!-- MAIN CONTENT -->
+      <main class="main sprints-page" id="main">
+        <div class="container">
 
-        <h2>Project 2: Web Foundations (Spring 2023)</h2>
-        <p>I gained a solid understanding of the core concepts behind web page structure and development. I explored the fundamental 
-            building blocks of HTML documents, including the use of tags, elements, and attributes. The course also covered essential best practices 
-            for creating accessible, well-structured webpages, ensuring content is correctly rendered accross different browsers.
-        </p>
-        <h2>Project 3: Microcomputers (Spring 2024)</h2>
-        <ul>
-            <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/myadd.s" target="_blank">Addition Basic (Assembly)</a></li>
-            <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/hw6.s" target="_blank">PIC24 LED Control with Button Input (Assembly)</a></li>
-            <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/task4.c" target="_blank">dsPIC33 Switch-Controlled RGB and LED Behavior (C Program)</a></li>
-        </ul>
-        <p>In this project, I utilized the PIC24 microcontroller with MPLAB IDE to design an embedded  system 
-            that controls on LED control and interacts with a switch input functionality. 
-            The system involves programming the microcontroller to control LED based on user input through
-            a tactile switch, utilizing low-level assembly language for precise hardware manipulation.</p>
-        <p>This project allowed me to gain hands-on experience in configuring microcontroller I/O pins, implementing
-            pull-up resistors, and managing input/output interactions, enhancing my skills in embedded systems programmming
-            and hardware interfacing.
-        </p>
-        <h2>Project 4: Software Design and Engineering (Fall 2024)</h2>
-        <p>As part of my coursework, I worked on developing and enhancing the Chocoholics Anonymous (ChocAn) system, 
-            a software solution for managing membership and service records for a fictional support group.
-            The system's primary objective was to automate the tracking and reporting of participant activities, enabling efficient
-            management of resources and operations.
-        </p>
-        <p>I focused on implementing and optimizing key functionalities of the system, including:
-            <ul>
-                <li><strong>Database Management: </strong>Designed and implemented SQl-based system for managing member information, 
-                service records, and group statistics. I ensured data integrity, performed normalization to reduce redundancy, and optimized 
-                queries for faster retrieval.</li>
-                <li><strong>User Interface Design: </strong>Developed a user-friendly interface for members and administrators,
-                    allowing for easy navigation, real-time updates, and interaction with the system. This involved designing interactive screens 
-                    for members to log activities and view reports.
-                </li>
-                <li><strong>Performance Optimization</strong> Focused on optimizing the performance of critical database operations, such as 
-                searching and sorting large datasets. I implemented efficient algorithms to improve the system's response time and ensure scalability as the 
-                system grows.</li>
-            </ul>
-        </p>
-        <h2>Project 5: Data Structures and Algorithms (Fall 2024)</h2>
-        <ul>
-            <li><a href="https://github.com/nareza-hub/WordFrequencyCounter/blob/main/parsetext.cpp" target="_blank">Word Frequency Counter (C++ Program)</a></li>
-            <li><a href="https://github.com/nareza-hub/WordCount-RBT-vs-Map" target="_blank">Performance Comparison: std::map vs. Red-Black Tree for Word Frequency Counting</a></li>
-            <li><a href="https://github.com/nareza-hub/MovieSearch/blob/main/HW3Sample.cpp" target="_blank">Movie Search and/or Actor</a></li>
-        </ul>
-        <p>I gained a deep understanding of the fundamental building blocks of computer science, focusing on the efficient organization, manipulation, and analysis 
-            of data. The course covered both theoretical concepts and hands-on coding practice, preparing me to solve complex computational problems and optimize solutions 
-            for performance.
-        </p>
-    </section>
+          <!-- PAGE HEADER -->
+          <header class="page-header">
+            <h1 class="title title--team">Projects</h1>
+            <div class="hr" role="presentation"></div>
+          </header>
 
-    <footer>
-        <p>© 2025 Neoma Reza</p>
-    </footer>
-</body>
+          <!-- PROJECT SECTIONS -->
+          <section class="deliverables-section">
+
+            <!-- Website Design -->
+            <section class="deliverables">
+              <details open>
+                <summary>Website Design (Spring 2024)</summary>
+                <ul>
+                  <li>
+                    Designed and developed a personal travel-themed website as part of a web project.
+                  </li>
+                  <li>
+                    Built four connected pages:
+                    <ul>
+                      <li>Home Page</li>
+                      <li>5 Countries for Every Continent</li>
+                      <li>7 Wonders of the World</li>
+                      <li>YouTube Creators Sharing Information About Destinations Around the World</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="nareza-travel/index.html" target="_blank">Visit My Project</a>
+                  </li>
+                </ul>
+              </details>
+            </section>
+
+            <!-- Web Foundations -->
+            <section class="deliverables">
+              <details open>
+                <summary>Web Foundations (Spring 2023)</summary>
+                <ul>
+                  <li>Built a strong understanding of HTML structure, tags, elements, and attributes.</li>
+                  <li>Learned core principles of webpage organization and development.</li>
+                  <li>Practiced creating accessible and well-structured webpages for consistent browser rendering.</li>
+                </ul>
+              </details>
+            </section>
+
+            <!-- Microcomputers -->
+            <section class="deliverables">
+              <details open>
+                <summary>Microcomputers (Spring 2024)</summary>
+                <ul>
+                  <li>Worked with the PIC24 microcontroller using MPLAB IDE to build embedded systems projects.</li>
+                  <li>Programmed LED control behavior and switch-based input functionality using low-level code.</li>
+                  <li>Gained hands-on experience with microcontroller I/O pins, pull-up resistors, and hardware interfacing.</li>
+                  <li>Project links:
+                    <ul>
+                      <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/myadd.s" target="_blank">Addition Basic (Assembly)</a></li>
+                      <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/hw6.s" target="_blank">PIC24 LED Control with Button Input (Assembly)</a></li>
+                      <li><a href="https://github.com/nareza-hub/microcomputers/blob/main/task4.c" target="_blank">dsPIC33 Switch-Controlled RGB and LED Behavior (C Program)</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </details>
+            </section>
+
+            <!-- Software Design and Engineering -->
+            <section class="deliverables">
+              <details open>
+                <summary>Software Design and Engineering (Fall 2024)</summary>
+                <ul>
+                  <li>Contributed to the development of the Chocoholics Anonymous (ChocAn) system for managing membership and service records.</li>
+                  <li>Worked on SQL-based database design to manage member information, service records, and group statistics.</li>
+                  <li>Helphed design user interface features for navigation, activity logging, and report viewing.</li>
+                  <li>Focused on improving system performance for searching, sorting, and handling larger datasets.</li>
+                </ul>
+              </details>
+            </section>
+
+            <!-- Data Structures and Algorithms -->
+            <section class="deliverables">
+              <details open>
+                <summary>Data Structures and Algorithms (Fall 2024)</summary>
+                <ul>
+                  <li>Strengthened understanding of data organization, algorithm efficiency, and problem solving in C++.</li>
+                  <li>Applied core data structure concepts through coding projects and performance comparison work.</li>
+                  <li>Project links:
+                    <ul>
+                      <li><a href="https://github.com/nareza-hub/WordFrequencyCounter/blob/main/parsetext.cpp" target="_blank">Word Frequency Counter (C++ Program)</a></li>
+                      <li><a href="https://github.com/nareza-hub/WordCount-RBT-vs-Map" target="_blank">Performance Comparison: std::map vs. Red-Black Tree for Word Frequency Counting</a></li>
+                      <li><a href="https://github.com/nareza-hub/MovieSearch/blob/main/HW3Sample.cpp" target="_blank">Movie Search and/or Actor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </details>
+            </section>
+
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
